@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
       - name: Echo the message
-        runs: |
+        run: |
           echo "Hola mundo"
