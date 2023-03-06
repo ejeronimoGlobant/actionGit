@@ -1,5 +1,5 @@
 ---
-name: ematest
+name: taurustest
 on:
   push:
     branches:
