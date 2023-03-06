@@ -7,7 +7,7 @@ on:
   
 jobs:
   emajob:
-    runs-on: ubuntu-18-04
+    runs-on: ubuntu-lastest
     steps:
       - name: Echo the message
         runs: |
