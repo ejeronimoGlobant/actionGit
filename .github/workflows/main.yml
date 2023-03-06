@@ -3,7 +3,7 @@ name: ematest
 on:
   push:
     branches:
-      - main
+      - developer
 jobs:
   emajob:
     runs-on: ubuntu-22.04

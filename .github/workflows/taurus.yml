@@ -11,5 +11,5 @@ jobs:
       - name: Run JMeter Tests
         uses: rbhadti94/apache-jmeter-action@v0.5.0
         with:
-          testFilePath: workflows/jmeter/univision_test.jmx
+          testFilePath: /workflows/jmeter/univision_test.jmx
           outputReportsFolder: reports/
