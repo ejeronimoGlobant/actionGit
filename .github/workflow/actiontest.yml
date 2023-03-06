@@ -1,0 +1,13 @@
+name: ematest
+
+on:
+  push:
+    branches:
+      - main
+  
+jobs:
+  emajob:
+    runs-on: ubuntu-18-04
+    steps:
+      - name: Echo the message
+        runs: echo "Hola mundo"
