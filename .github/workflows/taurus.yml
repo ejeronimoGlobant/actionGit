@@ -1,0 +1,15 @@
+---
+name: ematest
+on:
+  push:
+    branches:
+      - main
+jobs:
+  emajob:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Run JMeter Tests
+        uses: rbhadti94/apache-jmeter-action@v0.5.0
+        with:
+          testFilePath: jmeter/univision_test.jmx
+          outputReportsFolder: reports/
